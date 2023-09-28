@@ -1,0 +1,55 @@
+@import "../variables";
+
+.blockPeson{
+    margin: 18px 0px 18px 0px;
+    display: flex;
+    width: 240px;
+    height: 70px;
+    background-color: #FDFDFD;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
+    &_img{
+        width: 70px;
+        height: 70px;
+        img{
+            width: 68px;
+            height: 68px;
+            border-radius: 10px 0 0 10px;
+            border:  1px solid rgba(0, 0, 0, 0);
+        }
+    }
+    &_person{
+        width: 140px;
+        height: 100%;
+        &_name{
+            margin: 15px 0px 5px 15px;
+            color: $font-color-black;
+            font-size: 14px;
+            font-family: $font-Montserrat;
+            font-weight: 600;
+            word-wrap: break-word;
+        }
+        &_email{
+            margin-left: 15px;
+            color: #76787D;
+            font-size: 14px;
+            font-family: $font-Montserrat;
+            font-weight: 400;
+            word-wrap: break-word
+        }
+    }
+}
+
+.blockPeson_switch{
+    background-color: #E0E0E0;
+    margin: 18px 0px 18px 0px;
+    display: flex;
+    width: 240px;
+    height: 70px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
+}

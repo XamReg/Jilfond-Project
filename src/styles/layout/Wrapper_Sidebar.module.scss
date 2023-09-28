@@ -1,0 +1,52 @@
+@import "../variables";
+
+
+
+.wrapper{
+    min-width: 100vh;
+    min-height: 100vh;
+    .container{
+        width: 1265px;
+        height: 100vh;
+        margin: auto;
+    }
+    .commonBlock{
+        width: 100%;
+        position: relative;
+        height: 644px;
+        transform: translate(0, -50%);
+        top: 50%;
+        
+    }
+    &__header{
+        width: 100%;
+        height: 69px;
+        &__jilfond{
+            color: #E31F24;
+            font-size: 32px;
+            font-family: $font-Montserrat;
+            font-weight: 700;
+            word-wrap: break-word;
+        }
+        &__users{
+            position: relative;
+            text-align: right;
+            $font-color-black: #333333;
+            font-size: 16px;
+            font-family: $font-Montserrat;
+            font-weight: 400;
+            word-wrap: break-word;
+            bottom: 15px;
+        }
+    }
+    &__block{
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 575px;
+        background-color:#FDFDFD;
+        border-radius: 10px;
+        border: 1px solid #E0E0E0;
+        
+    }
+}
